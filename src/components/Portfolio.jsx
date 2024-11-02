@@ -33,11 +33,11 @@ const Portfolio = () => {
 
   // Existing data
   const companies = [
-    { id: 1, logo: agodaLogo, alt: "Agoda" },
-    { id: 2, logo: "/api/placeholder/100/40", alt: "Company 2" },
-    { id: 3, logo: "/api/placeholder/100/40", alt: "Company 3" },
-    { id: 4, logo: "/api/placeholder/100/40", alt: "Company 4" },
-    { id: 5, logo: "/api/placeholder/100/40", alt: "Company 5" },
+    //     { id: 1, logo: "/api/placeholder/100/40", alt: "Agoda" },
+    //     { id: 2, logo: "/api/placeholder/100/40", alt: "Company 2" },
+    //     { id: 3, logo: "/api/placeholder/100/40", alt: "Company 3" },
+    //     { id: 4, logo: "/api/placeholder/100/40", alt: "Company 4" },
+    //     { id: 5, logo: "/api/placeholder/100/40", alt: "Company 5" },
   ];
 
   const specializations = [
