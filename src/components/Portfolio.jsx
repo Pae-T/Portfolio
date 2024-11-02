@@ -8,7 +8,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 // Import รูปภาพที่ด้านบนของไฟล์
-import agodaLogo from "../assets/companies/agoda.png";
+// import agodaLogo from "../assets/companies/agoda.png";
 
 const Portfolio = () => {
   const containerRef = useRef(null);
