@@ -9,11 +9,6 @@ import {
 } from "lucide-react";
 // Import รูปภาพที่ด้านบนของไฟล์
 import agodaLogo from "../assets/companies/agoda.png";
-import profilepicture from "../assets/profile.jpg";
-// Import รูปอื่นๆ ตามต้องการ
-// import logo2 from './assets/companies/logo2.png';
-// import logo3 from './assets/companies/logo3.png';
-
 import profileImage from "../assets/Profile.jpg"; // ปรับ path ตามโครงสร้างโปรเจค
 
 const Portfolio = () => {
