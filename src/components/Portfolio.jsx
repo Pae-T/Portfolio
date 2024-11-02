@@ -9,7 +9,6 @@ import {
 } from "lucide-react";
 // Import รูปภาพที่ด้านบนของไฟล์
 import agodaLogo from "../assets/companies/agoda.png";
-import profileImage from "../assets/Profile.jpg"; // ปรับ path ตามโครงสร้างโปรเจค
 
 const Portfolio = () => {
   const containerRef = useRef(null);
@@ -134,6 +133,10 @@ const Portfolio = () => {
       ],
     },
   ];
+
+  // เพิ่มตัวแปรสำหรับเก็บ URL รูปภาพ
+  const profileImageUrl =
+    "https://raw.githubusercontent.com/Pae-T/Portfolio/main/src/assets/Profile.jpg";
 
   return (
     <div className="w-full h-screen flex overflow-hidden">
@@ -357,7 +360,7 @@ const Portfolio = () => {
         >
           {/* Profile Image */}
           <img
-            src={profileImage}
+            src={profileImageUrl}
             alt="Profile"
             className={`
               h-full w-full object-cover object-center
