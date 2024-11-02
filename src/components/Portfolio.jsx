@@ -123,13 +123,12 @@ const Portfolio = () => {
     },
     {
       title: "Front-end Developer",
-      company: "Vision Bootcamp",
-      period: "2023",
+      company: "Web development Bootcamp",
+      period: "2024",
       description: [
         "Completed intensive front-end development bootcamp focusing on modern web technologies",
-        "Developed multiple projects using React, Next.js, and Tailwind CSS",
+        "Developed multiple projects using React and Tailwind CSS",
         "Collaborated with team members in agile environment for project deliveries",
-        "Implemented responsive and accessible web applications",
       ],
     },
   ];
